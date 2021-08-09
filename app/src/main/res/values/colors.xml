@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorLightGrey">#b7c0c7</color>
+    <color name="colorLightBlue">#39add1</color>
+    <color name="colorBlack">#7F000000</color>
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="FireBrick">#B22222</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>

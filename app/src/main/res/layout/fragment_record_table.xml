@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:visibility="visible"
+    tools:context="com.example.minesweeper.Fragments.RecordTable"
+    tools:visibility="visible">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:shadowColor="@color/LightSeaGreen"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:text="@string/fragment"
+        android:textAlignment="center"
+        android:textColor="@color/FireBrick"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tableRecord"
+        android:background="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="400dp"
+        android:stretchColumns="0,1" >
+        <TableRow>
+            <TextView
+                android:id="@+id/level"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/level"
+                android:textColor="@color/colorLightBlue"
+                android:layout_gravity="start"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/place"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place"
+                android:textColor="@color/colorLightBlue"
+                android:layout_gravity="start"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="NAME    "
+                android:textColor="@color/colorLightBlue"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/record"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/record"
+                android:textColor="@color/colorLightBlue"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/space1"
+                android:text="   "
+                android:layout_gravity="start" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/easyLevel1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/easy"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/easyPlace1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place1"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/easyName1"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/easyRecord1"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/easyLevel2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/easy"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/easyPlace2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place2"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/easyName2"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/easyRecord2"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/easyLevel3"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/easy"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/easyPlace3"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place3"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/easyName3"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/easyRecord3"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+            </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/space2"
+                android:text="   "
+                android:layout_gravity="start" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/mediumLevel1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/medium"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mediumPlace1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place1"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mediumName1"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mediumRecord1"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/mediumLevel2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/medium"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mediumPlace2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place2"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mediumName2"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mediumRecord2"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/mediumLevel3"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/medium"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mediumPlace3"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place3"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mediumName3"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mediumRecord3"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/space3"
+                android:text="   "
+                android:layout_gravity="start" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/hardLevel1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/hard"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hardPlace1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place1"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hardName1"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hardRecord1"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/hardLevel2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/hard"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hardPlace2"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place2"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hardName2"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hardRecord2"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/hardLevel3"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/hard"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hardPlace3"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/place3"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="start"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hardName3"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hardRecord3"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="start"
+                android:text="@string/none"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/recordbutton"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="@color/colorBlack"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:text="@string/back_button"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:onClick="onBackPressed"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+</FrameLayout>

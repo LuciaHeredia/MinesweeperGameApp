@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backopen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_toStartOf="@id/name"
+        android:text="@string/minesweeper"
+        android:textAlignment="center"
+        android:textSize="55sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/FireBrick"
+        android:shadowColor="@color/LightSeaGreen"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/choose_level"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/name"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/choose_level"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/LightSeaGreen"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <RadioGroup
+        android:id="@+id/radioLevels"
+        android:layout_below="@id/choose_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+        <RadioButton
+            android:id="@+id/radioEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:text="@string/easy"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="sans-serif-condensed" />
+
+        <RadioButton
+            android:id="@+id/radioMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/radio_medium" />
+
+        <RadioButton
+            android:id="@+id/radioHard"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/radio_hard"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/register_btn_wrapper"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/radioLevels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+        android:id="@+id/frag"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/recordbutton"
+        android:shadowColor="@color/colorBlack"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/fragment" />
+
+        <Button
+        android:id="@+id/start"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="25dp"
+        android:shadowColor="@color/colorBlack"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/start_game" />
+
+        </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>
