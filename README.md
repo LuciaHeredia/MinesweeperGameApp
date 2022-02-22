@@ -1,6 +1,6 @@
 # Minesweeper
 
-Minesweeper Game in Java, Android Studio.
+Project in an app development course. 
 
 ![](mine1.png)
 ![](mine2.png)
