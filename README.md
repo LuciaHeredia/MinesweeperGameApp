@@ -1,4 +1,4 @@
-# AndroidStudio-Minesweeper
+# Minesweeper
 
 Minesweeper Game in Java, Android Studio.
 
